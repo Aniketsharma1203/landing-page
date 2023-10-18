@@ -1,0 +1,112 @@
+html, body{
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.window{
+    margin-right: 200px;
+    margin-left: 200px;
+   position: absolute;
+}
+.top{
+    margin-right: 200px;
+    background-color: rgb(4, 51, 51);
+    color: white;
+    height: 450px;
+}
+#head{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 200px;
+}
+.header{
+    display: flex;
+    height: 40px;
+}
+.headings{
+    margin-top: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 200px;
+    gap: 30px;
+}
+#head-2{
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-2{
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+.left-sec{
+
+    .without{
+    width: 360px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    }
+    .button{
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+}
+.button{
+    background-color:rgb(35, 167, 223);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: white;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.right-sec{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 200px;
+    flex-wrap: wrap;
+}
+
+.mid-sec{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 350px;
+    #mid-head{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+}
+
+.container img{
+    border-radius: 20px;
+    border: 3px solid rgb(0, 166, 255);
+    width: 150px;
+    height: 150px;
+}
